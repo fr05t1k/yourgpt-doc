@@ -1,7 +1,7 @@
 baseURL: https://fr05t1k.github.io/yourgpt-doc/
 languageCode: en-us
 title: YourGPT Documentation
-
+canonifyURLs: true
 module:
   # uncomment line below for local development of module
   # workspace: hugo.work
@@ -41,7 +41,7 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: /logos/fresh.svg
     link: /
     # Default width/height. Uncomment if you need to change
     # width: 112
