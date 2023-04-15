@@ -9,6 +9,19 @@ module:
     path: github.com/StefMa/hugo-fresh
 
 
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fr:
+    languageName: Français
+    weight: 2
+  es:
+    languageName: Spanish
+    weight: 3
+
+
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
 # Disables warnings
 disableKinds:
@@ -181,47 +194,41 @@ params:
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/fr05t1k
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
-    quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+    - link: https://twitch.com/fr05t1k
+      icon: twitch
+#    bulmalogo: true
+#    quicklinks:
+#      column1:
+#        title: "Product"
+#        links:
+#        - text: Discover features
+#          link: /
+#        - text: Why choose our product?
+#          link: /
+#        - text: Compare features
+#          link: /
+#        - text: Our roadmap
+#          link: /
+#        - text: AGB
+#          link: /agb
+#      column2:
+#        title: "Docs"
+#        links:
+#        - text: Get started
+#          link: /
+#        - text: User guides
+#          link: /
+#        - text: Admin guide
+#          link: /
+#        - text: Developers
+#          link: /
+#      column3:
+#        title: "Blog"
+#        links:
+#        - text: Latest news
+#          link: /blog/first
+#        - text: Tech articles
+#          link: /blog/second
