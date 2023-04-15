@@ -1,13 +1,10 @@
 ---
 title: YourGPT Bot Documentation
-sidebar: true # or false to display the sidebar
+sidebar: false # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 include_footer: true # or false to display the footer
 layout: single
 ---
-
-# Twitch Bot Documentation
-
 ## Introduction
 The Twitch Bot is a custom bot based on ChatGPT, designed to provide various functionalities for Twitch streamers and their viewers. This documentation provides an overview of the commands available in the Twitch Bot and how to use them.
 

@@ -20,6 +20,9 @@ languages:
   es:
     languageName: Spanish
     weight: 3
+  ru:
+    languageName: Русский
+    weight: 4
 
 
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
@@ -79,14 +82,16 @@ params:
 #    url: /
 #  - title: Pricing
 #    url: /
-#  - title: Dropdown
-#    sublinks:
-#    - title: Dropdown item
-#      url: /
-#    - title: Dropdown item
-#      url: /
-#    - title: Dropdown item
-#      url: /
+  - title: Languages
+    sublinks:
+    - title: English
+      url: /
+    - title: Français
+      url: /fr
+    - title: Español
+      url: /es
+    - title: Русский
+      url: /ru
 #  - title: Log in
 #    url: /
 #  - title: Sign up
