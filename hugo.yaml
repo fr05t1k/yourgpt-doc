@@ -44,7 +44,7 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: /logos/fresh.svg
+    image: /logos/1x1.png
     link: /
     # Default width/height. Uncomment if you need to change
     # width: 112
@@ -194,7 +194,7 @@ params:
 #    # method: POST
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: 1x1.png
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
