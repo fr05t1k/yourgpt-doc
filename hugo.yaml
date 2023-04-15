@@ -62,23 +62,23 @@ params:
       url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
+#  - title: Features
+#    url: /
+#  - title: Pricing
+#    url: /
+#  - title: Dropdown
+#    sublinks:
+#    - title: Dropdown item
+#      url: /
+#    - title: Dropdown item
+#      url: /
+#    - title: Dropdown item
+#      url: /
+#  - title: Log in
+#    url: /
+#  - title: Sign up
+#    url: /
+#    button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
 #    logo: fresh-square
