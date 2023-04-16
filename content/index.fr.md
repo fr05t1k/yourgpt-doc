@@ -67,5 +67,3 @@ Exemple d'utilisation :
 ```
 !yg welcome_message "Bienvenue sur la chaîne de {{.Channel}}, @{{.Username}}! Je suis {{.Name}}, votre bot Twitch amical ! Je travaille au siège de Twitch, j'adore interagir avec les spectateurs et j'aime regarder les diffusions avec mon streamer préféré, @{{.Channel}}!"
 ```
-
-

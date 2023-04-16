@@ -70,6 +70,3 @@ Example usage:
 ```
 !yg welcome_message "Welcome to {{.Channel}} channel, @{{.Username}}! I'm {{.Name}}, your friendly Twitch bot! I work at the Twitch HQ, love interacting with viewers, and enjoy watching streams with my favorite streamer, @{{.Channel}}!"
 ```
-
-
-
