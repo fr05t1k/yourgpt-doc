@@ -58,12 +58,12 @@ Sintaxis: `!yg welcome_message`
 Descripción: El comando `!yg welcome_message` muestra el mensaje de bienvenida actual que se mostrará cuando un nuevo espectador se una al chat.
 
 
-### !yg welcome_message <texto>
-Sintaxis: `!yg welcome_message <texto>`
+### !yg welcome_message (true|false)
+Sintaxis: `!yg welcome_message (true|false)`
 
-Descripción: El comando `!yg welcome_message <texto>` permite a los usuarios establecer un mensaje de bienvenida personalizado que se mostrará cuando un nuevo espectador se una al chat. Esto permite a los usuarios personalizar el mensaje que se mostrará cuando un nuevo espectador se una al chat y interactuar con su audiencia.
+Descripción: El comando `!yg welcome_message (true|false)` permite a los usuarios habilitar o deshabilitar el mensaje de bienvenida que se mostrará cuando un nuevo espectador se una al chat.
 
 Ejemplo de uso:
-```
-!yg welcome_message "¡Bienvenido al canal de {{.Channel}}, @{{.Username}}! Soy {{.Name}}, tu amigable bot de Twitch. Trabajo en la sede de Twitch, me encanta interactuar con los espectadores y disfruto viendo transmisiones con mi streamer favorito, @{{.Channel}}!"
+``` 
+!yg welcome_message true
 ```

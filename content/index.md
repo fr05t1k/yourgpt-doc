@@ -20,8 +20,6 @@ Example usage:
 !yg help
 ```
 
-
-
 ### !yg bio
 Syntax: `!yg bio`
 
@@ -61,12 +59,12 @@ Syntax: `!yg welcome_message `
 Description: The `!yg welcome_message` command displays the current welcome message that will be displayed when a new viewer joins the chat.
 
 
-### !yg welcome_message <text>
-Syntax: `!yg welcome_message <text>`
+### !yg welcome_message (true|false)
+Syntax: `!yg welcome_message (true|false)`
 
-Description: The `!yg welcome_message <text>` command allows users to set a custom welcome message that will be displayed when a new viewer joins the chat. This allows users to customize the message that will be displayed when a new viewer joins the chat and engage with their audience.
+Description: The `!yg welcome_message (true|false)` command allows users to enable or disable the welcome message that will be displayed when a new viewer joins the chat.
 
 Example usage:
 ```
-!yg welcome_message "Welcome to {{.Channel}} channel, @{{.Username}}! I'm {{.Name}}, your friendly Twitch bot! I work at the Twitch HQ, love interacting with viewers, and enjoy watching streams with my favorite streamer, @{{.Channel}}!"
+!yg welcome_message true
 ```

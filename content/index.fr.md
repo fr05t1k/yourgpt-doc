@@ -1,69 +1,74 @@
 ---
-title: Documentation de votre bot YourGPT
-sidebar: false # ou false pour afficher la barre latérale
-sidebarlogo: fresh-white-alt # À partir de (static/images/logo/)
-include_footer: true # ou false pour afficher le pied de page
+title: Documentation YourGPT Bot
+sidebar: false # or false to display the sidebar
+sidebarlogo: fresh-white-alt # From (static/images/logo/)
+include_footer: true # or false to display the footer
 layout: single
 ---
 ## Introduction
-Le bot Twitch est un bot personnalisé basé sur ChatGPT, conçu pour fournir différentes fonctionnalités aux streamers Twitch et à leur audience. Cette documentation donne un aperçu des commandes disponibles dans le bot Twitch et de leur utilisation.
+Le Twitch Bot est un bot personnalisé basé sur ChatGPT, conçu pour fournir différentes fonctionnalités aux streamers Twitch et à leurs spectateurs. Cette documentation fournit un aperçu des commandes disponibles dans le Twitch Bot et de leur utilisation.
 
 ## Commandes
 
 ### !yg help
 Syntaxe: `!yg help`
 
-Description: La commande `!yg help` affiche une liste des commandes disponibles et de leurs descriptions pour aider les utilisateurs à comprendre comment interagir avec le bot Twitch.
+Description: La commande `!yg help` affiche une liste de commandes disponibles et leurs descriptions pour aider les utilisateurs à comprendre comment interagir avec le Twitch Bot.
 
 Exemple d'utilisation:
 ```
 !yg help
 ```
 
+
+
 ### !yg bio
 Syntaxe: `!yg bio`
 
-Description: La commande `!yg bio` affiche la biographie du bot Twitch, qui peut être personnalisée par l'utilisateur.
+Description: La commande `!yg bio` affiche la biographie du Twitch Bot, qui peut être personnalisée par l'utilisateur.
 
-### !yg bio <texte>
-Syntaxe: `!yg bio <texte>`
+### !yg bio <text>
+Syntaxe: `!yg bio <text>`
 
-Description: La commande `!yg bio` permet aux utilisateurs de définir une biographie personnalisée pour le bot Twitch, lui donnant une personnalité et fournissant des informations telles que où il travaille, ce qu'il fait habituellement et son streamer préféré.
+Description: La commande `!yg bio` permet aux utilisateurs de définir une biographie personnalisée pour le Twitch Bot, lui donnant une personnalité et fournissant des informations telles que où il travaille, ce qu'il fait habituellement et son streamer préféré.
+### !yg bio
+Syntaxe : `!yg bio <bio>` 
 
-Exemple d'utilisation:
-```
-!yg bio "Salut, je suis ChatGPT, ton bot Twitch amical ! Je travaille au siège de Twitch, j'adore interagir avec les spectateurs et j'aime regarder des streams avec mon streamer préféré, @TwitchStreamer!"
-```
-
-### !yg trigger_words
-Syntaxe: `!yg trigger_words `
-
-Description: La commande `!yg trigger_words` affiche les mots ou phrases déclencheurs actuels qui, lorsqu'ils sont mentionnés dans le chat, activeront le bot Twitch et déclencheront une réponse.
-
-### !yg trigger_words <mots séparés par des virgules>
-Syntaxe: `!yg trigger_words <mots séparés par des virgules>`
-
-Description: La commande `!yg trigger_words` permet aux utilisateurs de définir des mots ou phrases déclencheurs qui, lorsqu'ils sont mentionnés dans le chat, activeront le bot Twitch et déclencheront une réponse. Cela permet aux utilisateurs de personnaliser les mots-clés qui activeront le bot et d'interagir avec leur audience.
-
-Exemple d'utilisation:
-```
-!yg trigger_words bonjour,salut,salutations,bot
-```
-
-Note : Les mots déclencheurs doivent être séparés par des virgules sans espaces.
-
-### !yg welcome_message
-Syntaxe: `!yg welcome_message `
-
-Description: La commande `!yg welcome_message` affiche le message de bienvenue actuel qui sera affiché lorsque qu'un nouveau spectateur rejoint le chat.
-
-
-### !yg welcome_message <texte>
-Syntaxe : `!yg welcome_message <texte>`
-
-Description : La commande `!yg welcome_message <texte>` permet aux utilisateurs de définir un message de bienvenue personnalisé qui sera affiché lorsqu'un nouvel utilisateur rejoint le chat. Cela permet aux utilisateurs de personnaliser le message qui sera affiché lorsque qu'un nouvel utilisateur rejoint le chat et d'interagir avec leur audience.
+Description : La commande `!yg bio` permet aux utilisateurs de définir la biographie du bot Twitch. Cela peut inclure des informations sur le bot, son créateur, ses centres d'intérêts et bien plus encore.
 
 Exemple d'utilisation :
 ```
-!yg welcome_message "Bienvenue sur la chaîne de {{.Channel}}, @{{.Username}}! Je suis {{.Name}}, votre bot Twitch amical ! Je travaille au siège de Twitch, j'adore interagir avec les spectateurs et j'aime regarder les diffusions avec mon streamer préféré, @{{.Channel}}!"
+!yg bio "Salut, je suis ChatGPT, votre bot Twitch amical ! Je travaille au siège de Twitch, j'adore interagir avec les spectateurs et j'aime regarder des streams avec mon streamer préféré, @TwitchStreamer !"
+```
+
+
+### !yg trigger_words 
+Syntaxe : `!yg trigger_words` 
+
+Description : La commande `!yg trigger_words` affiche les mots ou les phrases déclencheurs actuels qui, lorsqu'ils sont mentionnés dans le chat, activeront le bot Twitch et déclencheront une réponse.
+
+### !yg trigger_words <mots séparés par des virgules>
+Syntaxe : `!yg trigger_words <mots séparés par des virgules>` 
+
+Description : La commande `!yg trigger_words` permet aux utilisateurs de définir des mots ou des phrases déclencheurs qui, lorsqu'ils sont mentionnés dans le chat, activeront le bot Twitch et déclencheront une réponse. Cela permet aux utilisateurs de personnaliser les mots-clés qui activeront le bot et d'engager leur public.
+
+Exemple d'utilisation :
+``` 
+!yg trigger_words bonjour,salut,greetings,bot
+```
+
+Note : Les mots déclencheurs doivent être séparés par des virgules sans espaces. 
+
+### !yg welcome_message
+Syntaxe : `!yg welcome_message `
+Description : La commande `!yg welcome_message` affiche le message de bienvenue actuel qui sera affiché lorsqu'un nouveau spectateur rejoint le chat.
+
+### !yg welcome_message (true|false)
+Syntaxe : `!yg welcome_message (true|false)`
+
+Description : La commande `!yg welcome_message (true|false)` permet aux utilisateurs d'activer ou de désactiver le message de bienvenue qui sera affiché lorsqu'un nouveau spectateur rejoint le chat.
+
+Exemple d'utilisation :
+``` 
+!yg welcome_message true
 ```
